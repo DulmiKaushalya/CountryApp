@@ -20,7 +20,7 @@ export default function Login() {
     setError("");
     
     try {
-      const res = await fetch("https://countryapp-2.onrender.com/api/auth/login", {
+      const res = await fetch("https://countryapp-gyqw.onrender.com/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
