@@ -28,7 +28,7 @@ export default function Register() {
     setError("");
     
     try {
-      const res = await fetch("https://countryapp-2.onrender.com/api/auth/register", {
+      const res = await fetch("https://countryapp-gyqw.onrender.com/api/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
